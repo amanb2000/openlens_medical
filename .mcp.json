@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openlens-server": {
+      "type": "http",
+      "url": "https://openlens.com/mcp"
+    }
+  }
+}
