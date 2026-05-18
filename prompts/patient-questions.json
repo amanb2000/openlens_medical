@@ -1,0 +1,274 @@
+{
+  "project_name": "IM Care patient probe",
+  "topic": "patient-questions",
+  "prompts": [
+    {
+      "text": "I'm a 20-year-old university student in Toronto. I've been feeling completely exhausted, can't concentrate during lectures, and don't enjoy hanging out with friends anymore — this has been going on for about three weeks during exam season. Does this sound more like burnout or generalized anxiety, and what should I do about it?",
+      "attributes": ["mental-health", "age-adult", "age-18-22", "question-type-evaluation", "safety", "geo-ontario", "geo-toronto", "variant-of-mental-health-burnout-anxiety"]
+    },
+    {
+      "text": "I'm 19, in my second year at university in Ontario. I've been constantly worried about exams, my heart races when I check my grades, and I've been having trouble falling asleep for the last month. Does this sound more like burnout or generalized anxiety?",
+      "attributes": ["mental-health", "age-adult", "age-18-22", "question-type-evaluation", "safety", "geo-ontario", "variant-of-mental-health-burnout-anxiety"]
+    },
+    {
+      "text": "I'm 21, a finance student in Ontario. I've been feeling numb and unmotivated for the past 6 weeks. I'm sleeping 11 hours but still tired, and I've lost interest in my hobbies. Is this burnout, generalized anxiety, or could it be depression?",
+      "attributes": ["mental-health", "age-adult", "age-18-22", "question-type-evaluation", "safety", "geo-ontario", "variant-of-mental-health-burnout-anxiety"]
+    },
+
+    {
+      "text": "I'm 22 and live in Toronto. What are the OHIP-covered options for discreet STI testing in Toronto, and what should I actually expect at the appointment? I don't want to use my family doctor.",
+      "attributes": ["preventive", "age-adult", "age-18-22", "question-type-informational", "safety", "local", "geo-canada", "geo-ontario", "geo-toronto", "variant-of-sti-testing-ontario"]
+    },
+    {
+      "text": "I'm 20, living in Ottawa. Where can I get free, anonymous STI testing covered by OHIP, and what is the actual appointment like — bloodwork, swabs, results turnaround?",
+      "attributes": ["preventive", "age-adult", "age-18-22", "question-type-informational", "safety", "local", "geo-canada", "geo-ontario", "geo-ottawa", "variant-of-sti-testing-ontario"]
+    },
+    {
+      "text": "I'm in Sudbury, 21 years old. What are my options for discreet, OHIP-covered STI testing in a smaller Ontario city where everyone knows everyone, and what should I expect at the visit?",
+      "attributes": ["preventive", "age-adult", "age-18-22", "question-type-informational", "safety", "local", "geo-canada", "geo-ontario", "geo-sudbury", "variant-of-sti-testing-ontario"]
+    },
+
+    {
+      "text": "I'm 21 and using prescription Retin-A (tretinoin 0.025%) at night. Can I layer it with the following: CeraVe Foaming Cleanser, The Ordinary Niacinamide 10% + Zinc 1%, and a vitamin C serum (15% L-ascorbic acid) in the morning? Any interactions or irritation risks I should worry about?",
+      "attributes": ["medication", "age-adult", "age-18-22", "question-type-informational", "safety", "variant-of-retin-a-interaction"]
+    },
+    {
+      "text": "I'm 19 and just started prescription Retin-A (tretinoin 0.05%). Can I keep using Paula's Choice 2% BHA salicylic acid exfoliant, benzoyl peroxide 2.5% spot treatment, and an AHA toner? What's safe to combine and what isn't?",
+      "attributes": ["medication", "age-adult", "age-18-22", "question-type-informational", "safety", "variant-of-retin-a-interaction"]
+    },
+
+    {
+      "text": "I'm a 20-year-old guy lifting four days a week — push/pull/legs split. I just bought creatine monohydrate (5g/day), whey isolate (30g post-workout), and a pre-workout with 300mg caffeine plus beta-alanine at GNC. Any known side effects, kidney concerns, or interactions for someone my age?",
+      "attributes": ["medication", "age-adult", "age-18-22", "question-type-informational", "safety", "variant-of-gnc-supplements"]
+    },
+    {
+      "text": "I'm 21, female, lifting three days a week and doing yoga. I bought ashwagandha (600mg KSM-66), ZMA (zinc-magnesium-B6) before bed, and BCAAs at GNC. Any concerns for a 21-year-old taking these together, especially with hormonal birth control?",
+      "attributes": ["medication", "age-adult", "age-18-22", "question-type-informational", "safety", "variant-of-gnc-supplements"]
+    },
+
+    {
+      "text": "I'm 22, a U of T student with Studentcare/Green Shield as my student health insurance. How do I use my benefits to find a therapist in Toronto who specializes in anxiety and OCD, and roughly how much will be covered per session?",
+      "attributes": ["mental-health", "age-adult", "age-18-22", "question-type-evaluation", "local", "decision-support", "geo-ontario", "geo-toronto", "variant-of-student-therapist-coverage"]
+    },
+    {
+      "text": "I'm 19, at McMaster in Hamilton, with a basic student health plan. How do I find an ADHD-specialist psychologist through my student insurance, and what's typically covered per session and per year?",
+      "attributes": ["mental-health", "age-adult", "age-18-22", "question-type-evaluation", "local", "decision-support", "geo-ontario", "geo-hamilton", "variant-of-student-therapist-coverage"]
+    },
+
+    {
+      "text": "I'm 25, working remote, with sharp pain in my lower back after sitting for about 8 hours straight. Give me a specific 5-minute stretch routine I can do at my desk, and tell me whether I actually need a standing desk or if better posture and breaks would fix it.",
+      "attributes": ["symptom", "age-adult", "age-23-27", "question-type-informational", "variant-of-ergonomic-back-pain"]
+    },
+    {
+      "text": "I'm 27, software engineer, sitting 10+ hours a day. The pain is more in my neck and right shoulder, with occasional numbness in my fingers. Give me a 5-minute desk routine, and tell me if I should be getting an ergonomic assessment or seeing a doctor.",
+      "attributes": ["symptom", "age-adult", "age-23-27", "question-type-evaluation", "safety", "variant-of-ergonomic-back-pain"]
+    },
+
+    {
+      "text": "I'm 26, healthy, no cardiac history. I get heart palpitations every time I open my work email, especially Sunday nights. How can I tell if this is just stress, or whether I need to see a doctor about my heart?",
+      "attributes": ["symptom", "age-adult", "age-23-27", "question-type-evaluation", "safety", "mental-health", "variant-of-work-palpitations"]
+    },
+    {
+      "text": "I'm 25 and I get chest tightness and shortness of breath during certain meetings at work. It goes away once the meeting ends. Is this anxiety, or could it be a heart issue I should get checked?",
+      "attributes": ["symptom", "age-adult", "age-23-27", "question-type-evaluation", "safety", "mental-health", "variant-of-work-palpitations"]
+    },
+    {
+      "text": "I'm 24 and after every big project deadline I get a few days of skipped beats and feeling lightheaded. Should I be seeing a doctor or is this just stress, and what tests would they typically run?",
+      "attributes": ["symptom", "age-adult", "age-23-27", "question-type-evaluation", "safety", "variant-of-work-palpitations"]
+    },
+
+    {
+      "text": "I'm 24 and have a family history of type 2 diabetes (both parents). Create a high-protein, budget-friendly weekly meal plan for one person, using items I can buy at Loblaws or No Frills in Ontario. Include rough prices and a grocery list.",
+      "attributes": ["preventive", "age-adult", "age-23-27", "question-type-informational", "comorbidity", "geo-canada", "geo-ontario", "variant-of-nutrition-family-history"]
+    },
+    {
+      "text": "I'm 27 with a family history of heart disease and high cholesterol. Build me a Mediterranean-style, high-protein, budget-conscious weekly meal plan using groceries from Loblaws or No Frills in Ontario. Include rough prices and a shopping list.",
+      "attributes": ["preventive", "age-adult", "age-23-27", "question-type-informational", "comorbidity", "geo-canada", "geo-ontario", "variant-of-nutrition-family-history"]
+    },
+
+    {
+      "text": "I'm 26, an RN working 12-hour rotating shifts at an Ontario hospital — two weeks days, then two weeks nights. How should I adjust my caffeine intake and sleep schedule to avoid feeling chronically exhausted? Include a sample 24-hour schedule for both rotations.",
+      "attributes": ["preventive", "age-adult", "age-23-27", "question-type-informational", "geo-ontario", "variant-of-shift-work-sleep"]
+    },
+    {
+      "text": "I'm 25, working a rotating shift at a warehouse logistics job — three nights then four days off, then three days then four nights off. How should I time my caffeine and structure sleep to avoid burnout? Sample schedule please.",
+      "attributes": ["preventive", "age-adult", "age-23-27", "question-type-informational", "variant-of-shift-work-sleep"]
+    },
+
+    {
+      "text": "I'm 27, female, with an annual physical next week. My symptoms over the past few months: persistent fatigue, intermittent headaches, and unexplained 7 lb weight gain. What specific questions should I ask my doctor, and what labs should I push to have ordered?",
+      "attributes": ["question-type-followup", "age-adult", "age-23-27", "preventive", "decision-support", "variant-of-pre-physical-questions"]
+    },
+    {
+      "text": "I'm 25, male, with a physical next Friday. Symptoms: cold hands and feet all the time, hair thinning at the crown, very dry skin. What should I ask my doctor and what tests should I request — TSH, ferritin, anything else?",
+      "attributes": ["question-type-followup", "age-adult", "age-23-27", "preventive", "decision-support", "variant-of-pre-physical-questions"]
+    },
+
+    {
+      "text": "I'm 30, tracking ovulation with the Flo app. Cycles are 28 days, period started May 1, and Flo says my fertile window opened yesterday. I got a positive OPK (ovulation predictor kit) this morning. When's the best window to try to conceive over the next 5 days, and how should we time intercourse?",
+      "attributes": ["preventive", "age-adult", "age-28-32", "question-type-informational", "decision-support", "pregnancy", "variant-of-fertility-ovulation"]
+    },
+    {
+      "text": "I'm 32, using Natural Cycles. Basal body temperature has been steady at 36.4°C for two weeks, then jumped to 36.7°C three days ago. Cervical mucus was egg-white last week. Where am I in my cycle right now, and is the conception window still open?",
+      "attributes": ["preventive", "age-adult", "age-28-32", "question-type-informational", "decision-support", "pregnancy", "variant-of-fertility-ovulation"]
+    },
+
+    {
+      "text": "My 18-month-old has a fever of 38.5°C and small red dots on her trunk and legs that do NOT fade when I press on them with a glass. Should I go to a walk-in clinic or the ER in Toronto right now?",
+      "attributes": ["symptom", "age-pediatric", "age-28-32", "question-type-urgent", "safety", "emergency", "geo-ontario", "geo-toronto", "variant-of-pediatric-rash-fever"]
+    },
+    {
+      "text": "My 18-month-old has a fever of 38.5°C and a blotchy pink rash on his torso and arms that turns white when I press on it. He's still eating and playing. Walk-in clinic or ER in Ontario, or just wait it out?",
+      "attributes": ["symptom", "age-pediatric", "age-28-32", "question-type-urgent", "safety", "geo-ontario", "variant-of-pediatric-rash-fever"]
+    },
+    {
+      "text": "My 18-month-old has a fever of 38.5°C plus a single 5 cm raised, ring-shaped red patch on her thigh that has been growing over the last two days. We were camping in Ontario cottage country last weekend. Walk-in clinic or ER?",
+      "attributes": ["symptom", "age-pediatric", "age-28-32", "question-type-urgent", "safety", "geo-ontario", "variant-of-pediatric-rash-fever"]
+    },
+
+    {
+      "text": "I'm 31, four months postpartum with my first baby. I feel persistently sad, disconnected from my baby, and like I'm just going through the motions. Is this normal postpartum adjustment, or should I be screened for postpartum depression?",
+      "attributes": ["mental-health", "age-adult", "age-28-32", "question-type-evaluation", "safety", "pregnancy", "variant-of-postpartum-mood"]
+    },
+    {
+      "text": "I'm 29, four months postpartum. I'm anxious all the time, can't sleep even when my baby sleeps, and I keep getting up to check that he's breathing every 20 minutes through the night. Is this normal, or could it be postpartum anxiety or OCD?",
+      "attributes": ["mental-health", "age-adult", "age-28-32", "question-type-evaluation", "safety", "pregnancy", "variant-of-postpartum-mood"]
+    },
+    {
+      "text": "I'm 32, four months postpartum, and I'm irritable and rageful at my partner over tiny things. I cry every day. Is this normal hormonal shift or something I should be screened for?",
+      "attributes": ["mental-health", "age-adult", "age-28-32", "question-type-evaluation", "safety", "pregnancy", "variant-of-postpartum-mood"]
+    },
+
+    {
+      "text": "I'm 30, choosing between two job offers in Ontario. Job A: $0 dental, 80% drug coverage with a $5000 annual max. Job B: $1500/year dental max, 90% drug coverage with a $10000 annual max but a $500 family deductible. Family of three, one toddler. Which is the better health package and what am I missing in this comparison?",
+      "attributes": ["preventive", "question-type-evaluation", "age-adult", "age-28-32", "comparison", "decision-support", "geo-canada", "geo-ontario", "variant-of-health-plan-comparison"]
+    },
+    {
+      "text": "I'm 32, comparing two offers — one private firm with Manulife group benefits (Plan A: 100% basic dental, 80% major dental, 90% drug, no deductible) vs a federal contractor with a PSHCP-style plan (Plan B: 90% basic dental, 50% major dental, 80% drug, $60/year deductible). Family of three. Walk me through the real-world differences for a young family.",
+      "attributes": ["preventive", "question-type-evaluation", "age-adult", "age-28-32", "comparison", "decision-support", "geo-canada", "variant-of-health-plan-comparison"]
+    },
+
+    {
+      "text": "AQHI is 7 in Toronto today because of wildfire smoke drifting in from northern Ontario. Is it safe to take my 6-month-old for a walk in the stroller, and if so for how long? What about going to a stroller fit class in a park?",
+      "attributes": ["preventive", "age-pediatric", "age-28-32", "question-type-urgent", "safety", "geo-canada", "geo-ontario", "geo-toronto", "variant-of-aqhi-infant-stroller"]
+    },
+    {
+      "text": "AQHI is 9 in Sudbury today — persistent industrial haze plus smoke. I have a 9-month-old. Walk in the stroller or stay inside? Any AQHI thresholds I should know for infants?",
+      "attributes": ["preventive", "age-pediatric", "age-28-32", "question-type-urgent", "safety", "geo-canada", "geo-ontario", "geo-sudbury", "variant-of-aqhi-infant-stroller"]
+    },
+
+    {
+      "text": "I just got my LifeLabs results back at age 35. LDL cholesterol 3.4 mmol/L, HDL 1.2, triglycerides 1.5, total cholesterol 5.4. What does this mean for someone my age in Canada, and do I need to do anything about it — lifestyle, statin, recheck?",
+      "attributes": ["lab-result", "age-adult", "age-33-37", "question-type-informational", "decision-support", "preventive", "geo-canada", "variant-of-lab-result-translation"]
+    },
+    {
+      "text": "LifeLabs results, age 36: HbA1c 6.1%, fasting glucose 5.9 mmol/L. Family history of type 2 diabetes (both parents). What does this mean and what should I do — diet, metformin, recheck interval?",
+      "attributes": ["lab-result", "age-adult", "age-33-37", "question-type-informational", "decision-support", "comorbidity", "preventive", "geo-canada", "variant-of-lab-result-translation"]
+    },
+    {
+      "text": "I'm 34, LifeLabs report shows TSH 4.8 mIU/L, free T4 normal. I've been tired and have gained 8 lb in 6 months. What does this mean, and should I push my GP for treatment or another test (anti-TPO, repeat TSH)?",
+      "attributes": ["lab-result", "age-adult", "age-33-37", "question-type-evaluation", "decision-support", "symptom", "geo-canada", "variant-of-lab-result-translation"]
+    },
+
+    {
+      "text": "I'm a 35-year-old woman in Ontario, no major family history. What are the most evidence-based preventative screenings I should ask my GP to order now that I'm in my mid-30s — Pap, mammogram, labs, anything else?",
+      "attributes": ["preventive", "age-adult", "age-33-37", "question-type-informational", "decision-support", "geo-canada", "geo-ontario", "variant-of-preventative-screening-mid-30s"]
+    },
+    {
+      "text": "I'm a 36-year-old man with a first-degree relative who had colon cancer at 52. What screenings should I be pushing for from my GP in Ontario, at what intervals, and what's actually covered by OHIP?",
+      "attributes": ["preventive", "age-adult", "age-33-37", "question-type-informational", "decision-support", "comorbidity", "geo-canada", "geo-ontario", "variant-of-preventative-screening-mid-30s"]
+    },
+
+    {
+      "text": "My 73-year-old mother in Ottawa was just diagnosed with early-stage Alzheimer's by her GP. What are the first three concrete steps I need to take as her child and likely caregiver regarding her care plan and Power of Attorney in Ontario?",
+      "attributes": ["mental-health", "question-type-evaluation", "age-senior", "age-33-37", "decision-support", "safety", "geo-canada", "geo-ontario", "geo-ottawa", "variant-of-caregiver-dementia-pof"]
+    },
+    {
+      "text": "My 76-year-old father in Toronto was diagnosed with vascular dementia after a TIA last month. What do I need to do in the first month — Power of Attorney for property and personal care, driving, finances, family doctor — specifically in Ontario?",
+      "attributes": ["mental-health", "question-type-evaluation", "age-senior", "age-33-37", "decision-support", "safety", "geo-canada", "geo-ontario", "geo-toronto", "variant-of-caregiver-dementia-pof"]
+    },
+
+    {
+      "text": "My doctor in Ontario just prescribed amlodipine 5mg daily for high blood pressure. I drink a glass of grapefruit juice most mornings. Should I stop, and what specifically should I tell my pharmacist?",
+      "attributes": ["medication", "age-adult", "age-33-37", "question-type-informational", "safety", "geo-canada", "geo-ontario", "variant-of-bp-supplement-interaction"]
+    },
+    {
+      "text": "I was prescribed ramipril 5mg for blood pressure. I also take a potassium supplement (99mg) and use a low-sodium salt substitute that contains potassium chloride. Are there contraindications I should mention to my pharmacist?",
+      "attributes": ["medication", "age-adult", "age-33-37", "question-type-informational", "safety", "variant-of-bp-supplement-interaction"]
+    },
+    {
+      "text": "I started metoprolol 50mg twice daily for hypertension. I also take St. John's Wort for low mood. Any interactions I should mention to my pharmacist or GP?",
+      "attributes": ["medication", "age-adult", "age-33-37", "question-type-informational", "safety", "mental-health", "variant-of-bp-supplement-interaction"]
+    },
+
+    {
+      "text": "I've been waiting 6 months for a dermatologist appointment in Toronto for a changing mole my GP wanted looked at. How can I advocate for an earlier appointment, or find a shorter waitlist, while staying within OHIP?",
+      "attributes": ["preventive", "question-type-evaluation", "age-adult", "age-33-37", "decision-support", "safety", "geo-canada", "geo-ontario", "geo-toronto", "variant-of-ontario-specialist-wait"]
+    },
+    {
+      "text": "I've been on a 9-month waiting list for a psychiatrist in Ontario after my GP referred me. What are my real options to be seen sooner — second referral, telehealth, private pay, RAAM clinics, OHIP-covered virtual care?",
+      "attributes": ["question-type-evaluation", "age-adult", "age-33-37", "decision-support", "safety", "mental-health", "geo-canada", "geo-ontario", "variant-of-ontario-specialist-wait"]
+    },
+
+    {
+      "text": "I'm 41, in Ontario. Last 6 months I've had hot flashes most evenings, my cycles have gone from 28 to 22 days, and I'm waking up at 3 a.m. drenched. Could this be perimenopause, and what are the standard treatments available in Ontario including menopausal hormone therapy?",
+      "attributes": ["symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "geo-canada", "geo-ontario", "variant-of-perimenopause-onset"]
+    },
+    {
+      "text": "I'm 42, dealing with new brain fog, joint aches that feel like the flu, and increased PMS over the last year. Could this be perimenopause? What workup and treatment options would my GP in Ontario typically consider?",
+      "attributes": ["symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "mental-health", "geo-canada", "geo-ontario", "variant-of-perimenopause-onset"]
+    },
+    {
+      "text": "I'm 40, with low libido and vaginal dryness that have started in the past year, plus a couple of skipped periods. Is this perimenopause, and what are my options in Ontario — non-hormonal and hormonal?",
+      "attributes": ["symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "geo-canada", "geo-ontario", "variant-of-perimenopause-onset"]
+    },
+
+    {
+      "text": "Translate this pelvic ultrasound report into plain English: 'Uterus measures 9.2 x 5.4 x 6.0 cm, anteverted, with a 2.1 cm hypoechoic intramural fibroid in the posterior fundus. Endometrial thickness 7 mm, biphasic appearance. Both ovaries normal, no adnexal masses. No free fluid in the cul-de-sac.' I'm 39 and was sent for this because of heavy periods. What does it mean and what comes next?",
+      "attributes": ["lab-result", "procedure", "age-adult", "age-38-plus", "question-type-informational", "decision-support", "variant-of-imaging-report-translation"]
+    },
+    {
+      "text": "Translate this knee MRI report into plain English: 'Grade 2 signal in the posterior horn of the medial meniscus without definite tear. Mild patellofemoral chondral thinning. Small joint effusion. ACL, PCL, MCL, LCL intact. No bone marrow edema.' I'm 41 and was running when my knee gave out. Do I need surgery or physio first?",
+      "attributes": ["lab-result", "procedure", "age-adult", "age-38-plus", "question-type-informational", "decision-support", "symptom", "variant-of-imaging-report-translation"]
+    },
+    {
+      "text": "Translate this thyroid ultrasound report into plain English: 'Right lobe contains a 1.4 cm solid hypoechoic nodule with smooth margins, no microcalcifications, peripheral vascularity. TI-RADS 3. No suspicious cervical lymph nodes.' I'm 40. Do I need a biopsy, and if not, when's the next scan?",
+      "attributes": ["lab-result", "procedure", "age-adult", "age-38-plus", "question-type-informational", "decision-support", "variant-of-imaging-report-translation"]
+    },
+
+    {
+      "text": "I'm 40 and have had bilateral knee pain on and off for 3 months. Help me draft a structured 'symptom diary' I can fill out for two weeks and bring to my GP so they take this seriously and order the right workup.",
+      "attributes": ["symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "variant-of-joint-pain-symptom-diary"]
+    },
+    {
+      "text": "I'm 39 with chronic migraines — 4 to 5 per month for the last 6 months. Help me draft a migraine diary to bring to my GP that makes a strong case for trying a CGRP inhibitor or for a neurology referral.",
+      "attributes": ["symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "medication", "variant-of-joint-pain-symptom-diary"]
+    },
+    {
+      "text": "I'm 42 with morning stiffness in my hands lasting over an hour, plus visible swelling in my MCP joints, for 4 months. Help me build a symptom diary that captures what a rheumatologist would want to see for suspected rheumatoid arthritis.",
+      "attributes": ["symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "variant-of-joint-pain-symptom-diary"]
+    },
+
+    {
+      "text": "I'm 40, female, gained 10 lb over 4 months with no real change in diet or exercise. What blood tests should I ask my GP to order — TSH, A1C, what else — to actually check my metabolic and hormonal health?",
+      "attributes": ["lab-result", "symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "preventive", "variant-of-weight-gain-workup"]
+    },
+    {
+      "text": "I'm 38, female, 15 lb gain over 6 months, extreme fatigue, irregular periods. What labs should I push for — full PCOS workup, thyroid panel, insulin and HOMA-IR, anything else? What should I specifically ask my GP for?",
+      "attributes": ["lab-result", "symptom", "age-adult", "age-38-plus", "question-type-evaluation", "decision-support", "variant-of-weight-gain-workup"]
+    },
+
+    {
+      "text": "I'm 41, have been on sertraline 100mg daily for 5 years for anxiety and depression. I feel stable and want to discuss tapering off with my GP. What are the current clinical guidelines for tapering sertraline under supervision, what timeline should I expect, and what should I watch for?",
+      "attributes": ["medication", "mental-health", "age-adult", "age-38-plus", "question-type-followup", "decision-support", "safety", "variant-of-antidepressant-taper"]
+    },
+    {
+      "text": "I'm 39, on venlafaxine XR 150mg for 5 years. I know venlafaxine has a notoriously rough discontinuation syndrome. What's the current evidence-based taper protocol I should ask my doctor about — hyperbolic dosing, liquid formulation, timeline?",
+      "attributes": ["medication", "mental-health", "age-adult", "age-38-plus", "question-type-followup", "decision-support", "safety", "variant-of-antidepressant-taper"]
+    },
+    {
+      "text": "I'm 42, on escitalopram 20mg for 5 years. What does a clinically supervised taper actually look like — schedule, what to watch for, how to tell discontinuation symptoms from a relapse, and what should I have my GP plan for ahead of time?",
+      "attributes": ["medication", "mental-health", "age-adult", "age-38-plus", "question-type-followup", "decision-support", "safety", "variant-of-antidepressant-taper"]
+    }
+  ]
+}

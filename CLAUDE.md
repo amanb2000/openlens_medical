@@ -58,14 +58,16 @@ The OpenLens MCP server is registered in `.mcp.json`. Its tools are deferred —
 
 Attributes are the primary axis for slicing analysis results. Treat the attribute set as **structured metadata**, not free-text tags. The taxonomy this project uses:
 
-- **Age**: `age-pediatric`, `age-adolescent`, `age-adult`, `age-senior`
+- **Age (broad)**: `age-pediatric`, `age-adolescent`, `age-adult`, `age-senior`
+- **Age (cohorts used in the IM Care patient probe)**: `age-18-22`, `age-23-27`, `age-28-32`, `age-33-37`, `age-38-plus`
 - **Question type**: `question-type-informational`, `question-type-urgent`, `question-type-evaluation`, `question-type-followup`
 - **Clinical domain**: `medication`, `symptom`, `lab-result`, `procedure`, `preventive`, `mental-health`
 - **Risk/sensitivity**: `safety`, `comorbidity`, `pregnancy`, `emergency`
 - **Intent**: `local`, `comparison`, `decision-support`
-- **Variants**: `variant-of-<short-slug>` — groups rephrasings of the same underlying question for side-by-side comparison
+- **Geography**: `geo-canada`, `geo-ontario`, `geo-toronto`, `geo-ottawa`, `geo-hamilton`, `geo-sudbury`, `geo-rural-on` — apply `geo-canada` for any Canada-only context (OHIP, Health Canada, CADTH), `geo-ontario` for any Ontario-only context (LifeLabs, OHIP wait-list policy, AQHI, RAAM clinics), and a city tag when the prompt names a specific city
+- **Variants**: `variant-of-<short-slug>` — groups rephrasings or different concrete instantiations of the same underlying question for side-by-side comparison
 
-Every prompt should carry **at least one age tag, one question-type tag, and one clinical-domain tag**. Variant tags are optional but high-value when the user explicitly wants to test phrasing sensitivity.
+Every prompt should carry **at least one age tag (broad or cohort), one question-type tag, and one clinical-domain tag**. Geography tags are required whenever the prompt references a Canadian-specific entity. Variant tags are optional but high-value when the user explicitly wants to test phrasing or specificity sensitivity.
 
 ### Attribute lifecycle tools
 
